@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/adrianco/Desktop/ros2_ws/install/tracking/include/**",
+        "/home/adrianco/Desktop/ros2_ws/install/tracking_msgs/include/**",
+        "/home/adrianco/Desktop/ros2_ws/install/serial/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/book_ros2_notes/fsm_bumpgo_cpp/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/book_ros2_notes/my_package/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/book_ros2_notes/ros2_basics/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/book_ros2_notes/tf2_detector/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/book_ros2_notes/tracking/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/book_ros2_notes/vff_avoidance/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/book_ros2_notes/bt_patrolling/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/csm/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/diffdrive_arduino/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/ros2_laser_scan_matcher/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/serial/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/testing_cmm/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/example_2/hardware/include/**",
+        "/home/adrianco/Desktop/ros2_ws/src/my_bot_control/src/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

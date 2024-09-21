@@ -1,0 +1,12 @@
+<!-- <library>name of the target library exported using the CMakeLists.txt (my_bot_control_library at this case at line 44)</library> -->
+<library path="my_bot_control_library">
+    <class name="diff_control/MyPlugin"
+           type="my_bot_control::MyPlugin"
+           base_class_type="hardware_interface::SystemInterface">
+      <description>
+        The class name is like the description/ros2_control/my_diffbot.ros2_control.xacro plugin name ant the type and base_class_type like the hardware/my_diffbot_system.cpp
+        exporting class params at the end of that file and finaly the library path has the same name as the target from the CMakeLists.txt file (line 45). Check also the
+        library exportation on the same file
+      </description>
+    </class>
+</library>
